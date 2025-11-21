@@ -1,0 +1,14 @@
+/* visits.css */
+#visitCounter {
+    position: fixed;       /* Σταθερή θέση στην οθόνη */
+    top: 150px;             /* 10px από πάνω */
+    right: 10px;           /* 10px από δεξιά */
+    background-color: rgba(0, 0, 0, 0.6); /* Ημιδιαφανές μαύρο */
+    color: #fff;           /* Άσπρο κείμενο */
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    z-index: 9999;         /* Να είναι πάντα πάνω από τα άλλα στοιχεία */
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
