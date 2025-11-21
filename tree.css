@@ -1,0 +1,25 @@
+.tree-container {
+  position: absolute;
+  top: 320px;   /* Κατεβάζει το δέντρο */
+  left: 180px;   /* Φέρνει πιο δεξιά */
+  z-index: 1000;
+  transform-style: preserve-3d;
+}
+
+.star {
+  position: absolute;
+  font-size: 12px;
+  opacity: 0;
+  animation: twinkle 1s infinite alternate, appear 5s forwards;
+  text-shadow: 0 0 8px #FFFF00, 0 0 12px #4CAF50;
+}
+
+@keyframes twinkle {
+  from { opacity: 1; }
+  to { opacity: 0.8; }
+}
+
+@keyframes appear {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
